@@ -24,4 +24,4 @@ Os seguintes dados foram removidos ou substituídos antes da publicação:
 - **Senha recuperada** → omitida, confirmado apenas o status de sucesso
 
 > 📄 Para a análise completa de cada etapa, com comandos e contexto,
-> veja o [README principal](../readme.md).
+> veja o [README principal](../README.md).
