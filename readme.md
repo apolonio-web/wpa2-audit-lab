@@ -52,21 +52,22 @@ reconhecimento à mitigação.
 
 ## 🗂️ Estrutura do repositório
 
+```
 wpa2-audit-lab/
 ├── README.md
 ├── wordlist-generator/
-│ ├── README.md
-│ └── gerador.py
+│   ├── README.md
+│   └── gerador.py
 ├── relatorio/
-│ └── relatorio-completo.md
+│   └── relatorio-completo.md
 └── evidencias/
-├── 01-setup-monitor-mode.txt
-├── 02-reconhecimento.txt
-├── 03-captura-direcionada.txt
-├── 04-deauth.txt
-├── 05-conversao-hcxpcapngtool.txt
-└── 06-hashcat.txt
-
+    ├── 01-setup-monitor-mode.txt
+    ├── 02-reconhecimento.txt
+    ├── 03-captura-direcionada.txt
+    ├── 04-deauth.txt
+    ├── 05-conversao-hcxpcapngtool.txt
+    └── 06-hashcat.txt
+```
 
 ---
 
