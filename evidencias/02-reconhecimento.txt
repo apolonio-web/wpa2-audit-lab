@@ -1,0 +1,15 @@
+neo@fedora:~$ sudo airodump-ng wlo1mon
+
+ CH  6 ][ Elapsed: 30 s ][ 2026-10-18 21:33 
+
+ BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ XX:XX:XX:XX:XX:XX  -36       49      240    0   3  270   WPA2 CCMP   PSK  wifi-teste
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:01  -27    0 - 1      0        1
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:02  -70   24e- 1e     0        5
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:03  -58    1e- 6e     4      199
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:04  -49    1e- 1     11       49
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:05  -49   24e- 1      0        6
