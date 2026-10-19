@@ -67,6 +67,7 @@ wpa2-audit-lab/
     ├── 04-deauth.txt
     ├── 05-conversao-hcxpcapngtool.txt
     └── 06-hashcat.txt
+    └── README.md
 ```
 
 ---
