@@ -1,0 +1,16 @@
+neo@fedora:~$ sudo airodump-ng -c 3 --bssid XX:XX:XX:XX:XX:XX -w ~/handshakes/ wlo1mon
+21:37:23  Created capture file "/home/neo/handshakes/-01.cap".
+
+ CH  3 ][ Elapsed: 1 min ][ 2026-10-18 21:38 ][ fixed channel wlo1mon: -1 
+
+ BSSID              PWR RXQ  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ XX:XX:XX:XX:XX:XX  -40 100      609    14643   18   3  270   WPA2 CCMP   PSK  wifi-teste
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:01  -22   24e- 1    166     3745  EAPOL
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:02  -59   24e-24e     9    10290
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:03  -58    6e- 1      0      114
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:04  -51   24e- 1      0      238
+ XX:XX:XX:XX:XX:XX  XX:XX:XX:XX:XX:05  -55    1e- 1      0      976
