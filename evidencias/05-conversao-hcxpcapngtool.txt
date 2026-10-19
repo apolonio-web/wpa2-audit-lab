@@ -1,0 +1,54 @@
+neo@fedora:~$ hcxpcapngtool -o 01.hc22000 ~/handshakes/-01.cap
+hcxpcapngtool 7.1.0 reading from -01.cap...
+
+summary capture file
+--------------------
+file name................................: -01.cap
+version (pcap/cap).......................: 2.4 (very basic format without any additional information)
+timestamp minimum (timestamp)............: 19.10.2026 00:37:23 (1792370243)
+timestamp maximum (timestamp)............: 19.10.2026 00:38:26 (1792370306)
+duration of the dump tool (minutes)......: 1
+used capture interfaces..................: 1
+link layer header type...................: DLT_IEEE802_11 (105) very basic format without any additional information about the quality
+endianness (capture system)..............: little endian
+packets inside...........................: 24449
+ESSID (total unique).....................: 1
+BEACON (total)...........................: 1
+BEACON on 2.4 GHz channel (from IE_TAG)..: 3 
+ACTION (total)...........................: 32
+PROBERESPONSE (total)....................: 30
+DEAUTHENTICATION (total).................: 4
+AUTHENTICATION (total)...................: 8
+AUTHENTICATION (OPEN SYSTEM).............: 8
+ASSOCIATIONREQUEST (total)...............: 4
+ASSOCIATIONREQUEST (PSK).................: 4
+WPA encrypted............................: 14637
+EAPOL messages (total)...................: 15
+EAPOL RSN messages.......................: 15
+EAPOLTIME gap (measured maximum msec)....: 35777
+EAPOL ANONCE error corrections (NC)......: working
+REPLAYCOUNT gap (suggested NC)...........: 3
+EAPOL M1 messages (total)................: 4
+EAPOL M2 messages (total)................: 4
+EAPOL M3 messages (total)................: 3
+EAPOL M4 messages (total)................: 4
+EAPOL M4 messages (zeroed NONCE).........: 4
+EAPOL pairs (total)......................: 7
+EAPOL pairs (best).......................: 1
+EAPOL pairs written to 22000 hash file...: 1 (RC checked)
+EAPOL M32E2 (authorized - ANONCE from M3): 1
+RSN PMKID (useless)......................: 4
+
+Information: limited dump file format detected!
+This file format is a very basic format to save captured network data.
+It is recommended to use PCAP Next Generation dump file format (or pcapng for short) instead.
+
+Information: radiotap header is missing!
+Radiotap is a de facto standard for 802.11 frame injection and reception.
+
+Information: missing frames!
+This dump file does not contain undirected proberequest frames.
+
+session summary
+---------------
+processed cap files...................: 1
