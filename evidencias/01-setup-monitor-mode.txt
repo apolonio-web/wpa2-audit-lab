@@ -1,0 +1,46 @@
+neo@fedora:~$ sudo airmon-ng
+
+PHY	Interface	Driver		Chipset
+
+null	
+		??????		non-mac80211 device? (report this!)
+phy0	wlo1		iwlwifi		Intel Corporation Raptor Lake PCH CNVi WiFi (rev 01)
+
+
+neo@fedora:~$ sudo airmon-ng start wlo1
+
+Found 4 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+   1042 avahi-daemon
+   1079 avahi-daemon
+   1241 NetworkManager
+   1261 wpa_supplicant
+
+PHY	Interface	Driver		Chipset
+
+null	
+		??????		non-mac80211 device? (report this!)
+phy0	wlo1		iwlwifi		Intel Corporation Raptor Lake PCH CNVi WiFi (rev 01)
+		(mac80211 monitor mode vif enabled for [phy0]wlo1 on [phy0]wlo1mon)
+		(mac80211 station mode vif disabled for [phy0]wlo1)
+
+
+neo@fedora:~$ sudo airmon-ng check kill
+
+Killing these processes:
+
+    PID Name
+   1261 wpa_supplicant
+
+neo@fedora:~$ iw dev
+phy#0
+	Interface wlo1mon
+		ifindex 4
+		wdev 0x6
+		addr XX:XX:XX:XX:XX:XX
+		type monitor
+		channel 10 (2457 MHz), width: 20 MHz (no HT), center1: 2457 MHz
