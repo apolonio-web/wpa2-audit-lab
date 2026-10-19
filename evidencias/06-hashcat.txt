@@ -1,0 +1,57 @@
+neo@fedora:~$ hashcat -m 22000 -a 0 01.hc22000 ~/wordlist/list.txt
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #01: Intel(R) UHD Graphics, 3352/6704 MB (1676 MB allocatable), 16MCU
+
+OpenCL API (OpenCL 3.0 PoCL 7.1  Linux, RelWithDebInfo, RELOC, LLVM 21.1.8, SLEEF, DISTRO, OpenMP, POCL_DEBUG) - Platform #2 [The pocl project]
+* Device #02: cpu-haswell-Intel(R) Processor U300, skipped
+
+Minimum password length supported by kernel: 8
+Maximum password length supported by kernel: 63
+
+Hashes: 2 digests; 2 unique digests, 2 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Slow-Hash-SIMD-LOOP
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 964 MB (1364 MB free)
+
+Dictionary cache built:
+* Filename..: /home/neo/wordlist/list.txt
+* Passwords.: 11333
+* Bytes.....: 94470
+* Keyspace..: 11333
+* Runtime...: 0 secs
+
+Approaching final keyspace - workload adjusted.
+
+[HASH OMITIDO - senha recuperada com sucesso]
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Mode........: 22000 (WPA-PBKDF2-PMKID+EAPOL)
+Hash.Target......: 01.hc22000
+Time.Started.....: Sun Oct 18 22:34:15 2026 (1 sec)
+Time.Estimated...: Sun Oct 18 22:34:16 2026 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 8-63 bytes)
+Guess.Base.......: File (/home/neo/wordlist/list.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:    11649 H/s (6.28ms) @ Accel:3 Loops:128 Thr:128 Vec:1
+Recovered........: 1/2 (50.00%) Digests (total), 1/2 (50.00%) Digests (new), 1/2 (50.00%) Salts
+Progress.........: 22666/22666 (100.00%)
+Rejected.........: 13326/22666 (58.79%)
+Restore.Point....: 11333/11333 (100.00%)
+Restore.Sub.#01..: Salt:1 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#01...: index.php -> [senha omitida]
+Hardware.Mon.#01.: N/A
+
+Started: Sun Oct 18 22:34:10 2026
+Stopped: Sun Oct 18 22:34:18 2026
