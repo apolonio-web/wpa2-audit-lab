@@ -34,7 +34,7 @@ O script grava o resultado em `passwords.txt`, no mesmo diretório.
 
 ## 📄 Exemplo de saída
 
-``
+```
 10000000@
 10000001@
 10000002@
